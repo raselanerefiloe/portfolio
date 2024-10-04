@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building an Agronomist AI mobile app",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "AgonoAI Mobile App",
+    des: "A mobile app designed to improve precision agriculture through an Agronomist Assistant Chatbot, pest and disease detection model integration, tailored crop guidelines, and crop monitoring using drone technology.",
+    img: "/p1.svg", // Update with the appropriate image path
+    iconLists: ["/re.svg", "/tail.svg", "/ai.svg"], // Add relevant icons
+    link: "/ui.agonoai.com", // Update with the appropriate link
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "K-means Model for Forex Broker Analysis",
+    des: "A K-means model that provides insights on whether a forex broker is high or low risk based on broker rating and regulation details.",
+    img: "/p2.svg", // Update with the appropriate image path
+    iconLists: ["/data.svg", "/analysis.svg"], // Add relevant icons
+    link: "/ui.forexmodel.com", // Update with the appropriate link
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Africa Code Academy Enrollment App",
+    des: "Developed using Next.js, Express.js, and MongoDB with AWS S3 for storage. The app enhances user experience and application reliability.",
+    img: "/p3.svg", // Update with the appropriate image path
+    iconLists: ["/next.svg", "/express.svg", "/mongodb.svg"], // Add relevant icons
+    link: "/ui.africacodeacademy.com", // Update with the appropriate link
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Lifeline Pharmaceuticals eCommerce Website",
+    des: "An eCommerce website developed using Laravel and Tailwind CSS, focusing on user-friendly design and efficient product management.",
+    img: "/p4.svg", // Update with the appropriate image path
+    iconLists: ["/laravel.svg", "/tailwind.svg"], // Add relevant icons
+    link: "/ui.lifelinepharma.com", // Update with the appropriate link
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Refiloe's expertise and dedication made a significant impact on our projects. His ability to integrate technology with practical solutions is commendable. I highly recommend him for any IT-related endeavors.",
+    name: "Realeboha Mphatsoane",
+    title: "IT Administrator, Lifeline Pharmaceuticals",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Refiloe on the K-means model was a fantastic experience. His analytical skills and attention to detail provided valuable insights into forex broker risk assessment.",
+    name: "Kelebohile Bam",
+    title: "Data Analyst",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Refiloe on the Africa Code Academy EnrollApp was a pleasure. His technical knowledge and teamwork skills greatly contributed to the app's success.",
+    name: "Katleho",
+    title: "Colleague at Africa Code Academy",
   },
 ];
 
@@ -173,31 +161,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "IT Technician",
+    desc: "Oversaw the company's network infrastructure, ensuring optimal performance and reliability. Managed cloud infrastructure for clients using Microsoft Azure and enhanced cybersecurity measures utilizing Zscaler and CrowdStrike.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.svg", // Update with an appropriate image
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Engineer Intern - Africa Code Academy",
+    desc: "Developed an enrollment application using React JS, Next JS, MongoDB, and AWS S3. Collaborated to enhance user experience and application reliability, gaining hands-on experience with modern development tools.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg", // Update with an appropriate image
   },
 ];
 

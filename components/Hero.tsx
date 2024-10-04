@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Innovative Solutions in Technology
           </p>
 
           {/**
@@ -57,7 +57,14 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Refiloe Raselane, an IT Professional based in Lesotho,
+            currently pursuing my Master of Technology in Computer Science and
+            Technology.
+          </p>
+
+          <p className="text-center mb-8 text-sm md:text-lg lg:text-xl">
+            Passionate about leveraging technology to solve real-world problems
+            through innovative solutions.
           </p>
 
           <a href="#about">
